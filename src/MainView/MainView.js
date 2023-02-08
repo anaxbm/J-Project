@@ -2,6 +2,7 @@ import './mainview.scss'
 import Nav from '../Nav/Nav';
 import Banner from '../Banner/Banner';
 import Footer from '../footer/Footer';
+import CategoriesSection from '../Categories/CategoriesSection';
 
 
 const Mainview = () => {
@@ -9,6 +10,7 @@ const Mainview = () => {
         <>
         <Nav />
         <Banner />
+        <CategoriesSection/>
         <Footer />
         </>
     )
