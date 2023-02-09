@@ -1,5 +1,5 @@
 import './categories.scss'
-import Card from "../Cards/Card"
+import Cards from '../Cards/Cards'
 
 const CategoriesSection= () =>{
 
@@ -8,7 +8,7 @@ const CategoriesSection= () =>{
 
     return (
     <section class="jewelry__categories">
-      <Card/>
+      <Cards/>
 
 
 
